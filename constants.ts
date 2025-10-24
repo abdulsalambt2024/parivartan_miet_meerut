@@ -1,4 +1,5 @@
-import { Role, User, Post, Announcement, Achievement, Event, ChatMessage } from './types';
+import { Role } from './types';
+import type { User, Post, Announcement, Achievement, Event, ChatMessage } from './types';
 
 // FIX: Replaced corrupted/truncated base64 string with a valid one to resolve parsing error.
 export const PARIVARTAN_LOGO = 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=';

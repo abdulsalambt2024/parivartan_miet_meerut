@@ -1,6 +1,6 @@
 import React, { useState, useRef, useEffect, useMemo } from 'react';
-// FIX: Changed import for 'Role' from type-only to a value import to allow its use in runtime enum comparisons.
-import { Role, type ChatMessage, type User } from '../types';
+import { Role } from '../types';
+import type { ChatMessage, User } from '../types';
 import { ImageIcon, SendIcon, VerifiedIcon, MicrophoneIcon } from './Icons';
 import { transcribeAudio } from '../services/geminiService';
 

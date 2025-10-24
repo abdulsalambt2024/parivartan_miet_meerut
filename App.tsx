@@ -1,6 +1,7 @@
 import React, { useState, useEffect, useMemo, useCallback } from 'react';
 import { MOCK_USERS, MOCK_POSTS, MOCK_ANNOUNCEMENTS, MOCK_ACHIEVEMENTS, MOCK_EVENTS, MOCK_CHAT_MESSAGES, ADMIN_USERNAME, ADMIN_PASSWORD, VIEWER_USER, PARIVARTAN_LOGO } from './constants';
-import { Role, User, Post, Announcement, Achievement, Event, Page, Notification, ChatMessage } from './types';
+import { Role, Page } from './types';
+import type { User, Post, Announcement, Achievement, Event, Notification, ChatMessage } from './types';
 import { HomeIcon, AnnouncementIcon, AchievementIcon, LogoutIcon, PlusIcon, TrashIcon, CalendarIcon, LoginIcon, EditIcon, SearchIcon, BellIcon, UserIcon, ChatIcon, SparklesIcon, SpeakerIcon } from './components/Icons';
 import CreatePost from './components/CreatePost';
 import CreateEvent from './components/CreateEvent';
